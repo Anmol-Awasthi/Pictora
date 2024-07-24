@@ -14,6 +14,7 @@ import { theme } from "../constants/theme";
 
 import { FadeInDown } from "react-native-reanimated";
 import { useRouter } from "expo-router";
+import 'react-native-reanimated';
 
 export default function WelcomeScreen() {
   const router = useRouter();
